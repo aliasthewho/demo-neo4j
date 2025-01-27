@@ -1,6 +1,6 @@
-package neo4j.io.abovo.demo_neo4j.api;
+package neo4j.io.abovo.demo_neo4j.api.controller;
 
-import neo4j.io.abovo.demo_neo4j.entity.dto.StudentRequest;
+import neo4j.io.abovo.demo_neo4j.api.dto.StudentRequest;
 import neo4j.io.abovo.demo_neo4j.service.StudentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

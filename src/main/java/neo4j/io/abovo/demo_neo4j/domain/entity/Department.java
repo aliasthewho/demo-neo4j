@@ -1,4 +1,4 @@
-package neo4j.io.abovo.demo_neo4j.entity;
+package neo4j.io.abovo.demo_neo4j.domain.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,11 +11,12 @@ import java.util.UUID;
 
 @Getter
 @Setter
-@Node(labels = {"Subject"})
-public class Subject {
+@Node(labels = {"Department"})
+public class Department {
     @Id
     @GeneratedValue
     private UUID id;
-    @Property(name = "subject_name")
-    private String subjectName;
+
+    @Property(name = "dep_name")
+    private String depName;
 }

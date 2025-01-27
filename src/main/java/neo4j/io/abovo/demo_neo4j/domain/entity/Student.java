@@ -1,7 +1,8 @@
-package neo4j.io.abovo.demo_neo4j.entity;
+package neo4j.io.abovo.demo_neo4j.domain.entity;
 
 import lombok.Getter;
 import lombok.Setter;
+import neo4j.io.abovo.demo_neo4j.domain.relationship.IsLearningRelation;
 import org.springframework.data.neo4j.core.schema.*;
 
 import java.util.List;

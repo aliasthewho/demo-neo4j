@@ -1,10 +1,10 @@
 package neo4j.io.abovo.demo_neo4j.service;
 
-import neo4j.io.abovo.demo_neo4j.entity.Department;
-import neo4j.io.abovo.demo_neo4j.entity.IsLearningRelation;
-import neo4j.io.abovo.demo_neo4j.entity.Student;
-import neo4j.io.abovo.demo_neo4j.entity.Subject;
-import neo4j.io.abovo.demo_neo4j.entity.dto.StudentRequest;
+import neo4j.io.abovo.demo_neo4j.domain.entity.Department;
+import neo4j.io.abovo.demo_neo4j.domain.relationship.IsLearningRelation;
+import neo4j.io.abovo.demo_neo4j.domain.entity.Student;
+import neo4j.io.abovo.demo_neo4j.domain.entity.Subject;
+import neo4j.io.abovo.demo_neo4j.api.dto.StudentRequest;
 import neo4j.io.abovo.demo_neo4j.repository.DepartmentRepository;
 import neo4j.io.abovo.demo_neo4j.repository.StudentRepository;
 import neo4j.io.abovo.demo_neo4j.repository.SubjectRepository;

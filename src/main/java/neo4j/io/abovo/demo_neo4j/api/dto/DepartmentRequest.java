@@ -1,4 +1,4 @@
-package neo4j.io.abovo.demo_neo4j.entity.dto;
+package neo4j.io.abovo.demo_neo4j.api.dto;
 
 import lombok.Getter;
 import lombok.Setter;
